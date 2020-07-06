@@ -218,15 +218,4 @@ public class MetricsController {
 		return metric.compute((Model) result.get("model"), (String) result.get("datasetUri"));
 	}
 
-	@PostMapping("/uploadFile/testserver")
-	public int uploadFileTestServer()
-			throws Exception {
-
-		//MetricsController controller = new MetricsController();
-		//JSONObject result = controller.readModelFile(file, dataSet);
-
-		/* Compute model and datasetUri */
-		System.out.println("hello");
-		return 1;
-	}
 }
